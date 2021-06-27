@@ -1,4 +1,4 @@
-use z1821331;
+use ecommerce;
 
 drop table if exists cart;
 drop table if exists order_items;

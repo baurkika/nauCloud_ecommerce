@@ -1,9 +1,9 @@
 <?PHP
 session_start();
-$host = 'courses'; 
-$user = 'z1821331';
-$password='1996Jun06';
-$db = 'z1821331'; 
+$host = 'naucloud'; 
+$user = 'nauadmin';
+$password='admin123';
+$db = 'ecommerce'; 
 $conn = new PDO("mysql:host=$host;dbname=$db",$user,$password);// Creating a New PDO connection with the corresponding host,database name,user and password.  
 //For throwing Exceptions 
 try
